@@ -1,0 +1,50 @@
+body{
+    background-color: gainsboro;
+    font-size: 14px;
+    height: 100vh;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+h1{
+    font-size: 2em;
+    margin-bottom: .2rem;
+    text-align: center;
+}
+
+p{
+    font-style: oblique;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.form-group{
+    padding-left: 85px;
+    padding-right: 70px;
+}
+.form-check-inline .form-check-input {
+    position: static;
+    margin-top: 0;
+    margin-right: .3125rem;
+    margin-left: 5px;
+}
+
+label{
+    display: inline-block;
+    margin-bottom: 0.2rem;
+}
+.col-6{
+    flex: 0 0 45%;
+    max-width: 48%;
+}
+
+.imagem1{
+    height: 412px;
+    width: 600px;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+.btn-secondary{
+    background-color: #6C7566;
+}
