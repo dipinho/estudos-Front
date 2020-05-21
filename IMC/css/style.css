@@ -1,27 +1,36 @@
 body{
     background-color: gainsboro;
-    font-size: 14px;
+    line-height: 1.25;
+    font-size: 16px;
     height: 100vh;
     margin-left: 20px;
     margin-top: 20px;
 }
 
 h1{
-    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
     margin-bottom: .2rem;
     text-align: center;
 }
 
 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
     font-style: oblique;
     text-align: center;
     padding-bottom: 10px;
+}
+
+button, input, optgroup, select, textarea {
+    margin: -3px;
 }
 
 .form-group{
     padding-left: 85px;
     padding-right: 70px;
 }
+
 .form-check-inline .form-check-input {
     position: static;
     margin-top: 0;
@@ -45,6 +54,6 @@ label{
     padding-right: 50px;
 }
 
-.btn-secondary{
-    background-color: #6C7566;
+.btn:hover{
+    background-color: #021349;
 }
