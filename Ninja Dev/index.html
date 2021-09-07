@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Dev Ninja</title>
+</head>
+<body>
+   <header id="navbar"> 
+        <img src="img/shuriken.png" alt="Estrela ninja" >
+        <h2>DiPinho</h2>
+        <nav>
+            <ul id="navbar-list">
+                <li><a href="#about-section">Sobre</a></li>
+                <li><a href="#jobs-section">Projetos</a></li>
+                <li><a href="#footer">Contato</a></li>
+            </ul>
+        </nav>
+   </header>
+
+   <main>
+       <div id="main-banner">
+           <div id="banner-info">
+               <h1>Olá, eu sou o George DiPinho</h1>
+               <img src="img/ninja.png" alt="Perfil ninja" >
+               <p>O ninja da programação</p>
+           </div>
+       </div>
+
+       <section id="about-section">
+           <h2>Sobre o jeito ninja de ser</h2>
+            <p>Acredite em si mesmo e transforme essa vontade em ações diárias. 
+                Manifeste seu desejo para o universo, e seja firme e constante em suas decisões.</p>
+       </section>
+   </main>
+   <section id="skills-section"> 
+       <div class="container">
+           <div class="skills-container">
+               <img src="img/weapon1.png" alt="Weapon">
+               <h3>Desenvolvimento</h3>
+               <p>Minha maior paixão é Desenvolvimento</p><br>
+               <p class="subtitle">Linguagens que utilizo:</p>
+               <p>HTML, CSS, JS, PHP e Java</p> <br>
+               <p class="subtitle">Projetos que posso desenvolver:</p>
+               <p>E-commerce, sites institucionais, sistemas de qualquer complexidade</p>
+           </div>
+
+           <div class="skills-container central">
+               <img src="img/weapon2.png" alt="Weapon">
+               <h3>Criação</h3>
+               <p>Atuo também na análise e gerenciamento de projetos</p><br>
+               <p class="subtitle">Meus conhecimentos:</p>
+               <p>Análise de software, Engenharia de requisitos, Análise de infra</p>
+            </div>
+
+            <div class="skills-container">
+                <img src="img/weapon3.png" alt="Weapon">
+                <h3>Infraestrutura</h3>
+                <p>Posso mensurar seus servidores, deixando o projeto mais performático</p> <br>
+                <p class="subtitle">Serviços de Cloud</p>
+                <p>AWS, Google Cloud, Microsoft  Azure</p> <br>
+               <p class="subtitle">O que posso fazer:</p>
+               <p>Clusters, Servidores de CDN e diminuir o tempo de requisição</p>
+           </div>
+       </div>
+   </section>
+
+   <section id="jobs-section">
+       <h2>Veja meus útimos trabalhos:</h2>
+       <p>Aqui estão os meus trabalhos mais recentes, para ver todos <a href="http://github.com/dipinho" target="_blank">clique qui</a></p>
+       <div class="job-container">
+           <div class="job-box proj1"></div>
+           <div class="job-box proj2"></div>
+           <div class="job-box proj3"></div>
+       </div>
+
+       <div class="job-container">
+        <div class="job-box proj2"></div>
+        <div class="job-box proj3"></div>
+        <div class="job-box proj1"></div>
+    </div>
+   </section>
+
+   <footer id="footer">
+       <h2>Me mande uma mensg</h2>
+       <p>Caso queira falar sobre algum projeto, me contratar para algum serviço, ou falar sobre ninjas...</p>
+       <img src="img/ninja.png" alt="perfil Ninja">
+       <form action="">
+           <input type="text" name="name" placeholder="Seu nome">
+           <input type="email" name="email" placeholder="Seu E-mail">
+           <textarea name="msg" placeholder="Digite uma mensagem"></textarea>
+           <input type="submit" value="Enviar">
+       </form>
+       <p>Desenvolvido por <span class="detail"> George DiPinho</span></p>
+   </footer>
+    
+</body>
+</html>

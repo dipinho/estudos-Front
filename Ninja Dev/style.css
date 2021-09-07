@@ -1,0 +1,233 @@
+/* geral*/
+body, p ,h1 ,h2, input ,textarea{
+    margin: 0;
+    font-family: Roboto;
+}
+
+h2{
+    font-size: 30px;
+}
+
+#navbar{
+    background-color: #a14242;
+    color: #fff;
+    padding: 0 15px;
+    height: 60px;
+}
+
+#navbar h2, #navbar ul, #navbar-list li, #navbar nav{
+    display: inline-block;
+}
+
+#navbar h2{
+    margin: 0;
+    line-height: 60px;
+    margin-left: 55px;
+}
+
+#navbar img{
+    height: 40px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 10px;
+}
+
+#navbar nav{
+    float: right;
+
+}
+
+#navbar li{
+    margin: 0 10px;
+}
+
+#navbar ul{
+    margin-top: 20px;
+
+}
+
+#navbar-list li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#navbar-list li:hover{
+    border-bottom: 1px solid #fff;
+}
+
+#main-banner{
+    height: 70vh;
+    background-image: url('./img/bg-projeto.jpg');
+    background-size: cover;
+    padding-top: 15vh;
+}
+
+#banner-info{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+}
+
+#banner-info img{
+    height: 120px;
+    border-radius: 50%;
+    background-color: #a14242;
+    margin-top: 15px;
+}
+
+#banner-info p{
+    font-weight: bold;
+}
+
+#about-section{
+    color: #fff;
+    background-color: #a14242;
+    height: 350px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#about-section h2{
+    margin-bottom: 20px;
+}
+
+#about-section p{
+    max-width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 30px;
+}
+
+#skills-section{
+    margin-top: -100px;
+    background-color: #fff;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+#skills-section .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.skills-container{
+    flex: 1 1 1;
+    text-align: center;
+    padding: 20px 25px;
+}
+
+.central{
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.skills-container h3{
+    color: #a14242;
+    font-size: 20px;
+}
+
+.skills-container img{
+    height: 75px;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+.skills-container .subtitle{
+    font-weight: bold;
+}
+.skills-container p{
+    line-height: 25px;
+}
+
+#jobs-section{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#jobs-section h2{
+    color: #a14242;
+    margin-bottom: 30px;
+}
+
+#jobs-section p{
+    margin-bottom: 50px;
+}
+
+#jobs-section a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #a14242;
+}
+
+.job-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /* distribui o espaço entre e ao redor dos itens de conteúdo ao longo do eixo principal de um contêiner flexível*/
+    max-width: 1200px; /* espacamento sobrando */ 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.job-box{
+    flex:  1 1 200px; /* largura minima de cada imagem vai ser 200px, pra nao distorcer*/
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 300px;
+    background-size: cover; /* */
+    border-right: 2px solid #a14242;
+    border-bottom: 2px solid #a14242;
+}
+
+.proj1{
+    background-image: url(./img/proj1.jpg);
+}
+
+.proj2{
+    background-image: url(./img/proj2.jpg);
+}
+
+.proj3{
+    background-image: url(./img/proj3.jpg);
+}
+
+footer{
+    padding: 50px 0;
+    background-color: #a14242;
+    color: #ddd;
+    text-align: center;
+}
+
+footer img{
+    height: 50px;
+    margin: 30px 0;
+}
+
+footer p{
+    margin-top: 25px;
+}
+
+footer form{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer input, footer textarea {
+    border: none;
+    padding: 15px;
+    box-sizing: border-box; /* Caso não seja inserido, os inputs passam da largura definida, width 400px*/
+    margin-bottom: 20px;
+    width: 100%; /* 400px de largura */
+}
+
+footer .detail{
+    font-weight: bold;
+}
